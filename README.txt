@@ -1,33 +1,21 @@
-PRISTINE GROUNDS SNOW REMOVAL WEBSITE
+PRISTINE GROUNDS PROFESSIONAL SNOW REMOVAL WEBSITE
 
-FILES
-- index.html: website content
-- styles.css: website design
-- script.js: minor phone-link behavior
-- assets/logo.jpg: Pristine Grounds logo
+UPLOAD ALL OF THESE FILES TO THE TOP LEVEL OF YOUR GITHUB REPOSITORY:
+- index.html
+- styles.css
+- script.js
+- logo.jpg
 
-IMPORTANT ABOUT THE QUOTE FORM
-The form uses FormSubmit and sends requests to pristineground@gmail.com.
-The first real submission will trigger a one-time activation email. Open that email and approve the form before relying on it.
+IMPORTANT:
+1. Keep the filename exactly "logo.jpg".
+2. Do not place the files inside another folder.
+3. GitHub Pages should publish from main / (root).
+4. The quote form sends submissions to pristineground@gmail.com through FormSubmit.
+5. Submit a test quote after publishing. FormSubmit may send a one-time activation email.
 
-HOSTING
-This is a custom static website. Google Sites does not directly accept a full HTML/CSS website upload.
-Free hosting options that accept these files include:
-- GitHub Pages
-- Netlify
-- Cloudflare Pages
+PHONE:
+(920) 419-0345
 
-You can also manually rebuild the same layout inside Google Sites, but the design will be more limited.
-
-STOCK PHOTOS
-The website references two Unsplash photos remotely:
-- Todd Trapani: snow blower image
-- Patrick Bald: residential snow removal image
-Unsplash permits commercial use under its license. Credits are included in the footer.
-
-BEFORE PUBLISHING
-1. Test every call, text and email link.
-2. Activate and test the quote form.
-3. Replace stock photos with your own completed-job photos as soon as possible.
-4. Consider buying a simple domain later, such as pristinegroundsripon.com.
-5. Add your insurance wording only if your current policy specifically covers snow-removal operations.
+SERVICE AREA:
+Primary: Ripon, WI
+Limited availability: Green Lake and Princeton

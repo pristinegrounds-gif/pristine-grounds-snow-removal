@@ -3,178 +3,351 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Pristine Grounds provides insured residential and commercial snow removal in Ripon, Wisconsin, with service also available in Green Lake and Princeton." />
+  <meta name="description" content="Reliable residential and commercial snow removal in Ripon, Wisconsin, with limited service in Green Lake and Princeton. Call or text Pristine Grounds for a free quote." />
+  <meta name="theme-color" content="#0a0d0a" />
   <title>Pristine Grounds | Snow Removal in Ripon, WI</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="icon" href="logo.jpg" />
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="Pristine Grounds home">
-      <img src="assets/logo.jpg" alt="Pristine Grounds logo" />
-      <span>Snow Removal</span>
-    </a>
-    <nav aria-label="Main navigation">
-      <a href="#residential">Residential</a>
-      <a href="#commercial">Commercial</a>
-      <a href="#service-area">Service Area</a>
-      <a class="nav-cta" href="#quote">Free Quote</a>
-    </nav>
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Pristine Grounds home">
+        <img src="logo.jpg" alt="Pristine Grounds logo" />
+        <span>
+          <strong>Pristine Grounds</strong>
+          <small>Snow Removal</small>
+        </span>
+      </a>
+
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Open menu</span>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+        <a href="#residential">Residential</a>
+        <a href="#commercial">Commercial</a>
+        <a href="#process">How It Works</a>
+        <a href="#service-area">Service Area</a>
+        <a class="nav-cta" href="#quote">Free Quote</a>
+      </nav>
+    </div>
   </header>
 
-  <main id="top">
-    <section class="hero">
-      <div class="hero-overlay"></div>
-      <div class="hero-content">
-        <p class="eyebrow">INSURED • LOCAL • 1-INCH TRIGGER</p>
-        <h1>Reliable snow removal before winter slows you down.</h1>
-        <p class="hero-copy">Residential driveways, sidewalks, walkways and commercial parking lots in Ripon, with select service in Green Lake and Princeton.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="tel:+19204190345">Call (920) 419-0345</a>
-          <a class="button secondary" href="sms:+19204190345">Text for a Quote</a>
+  <main id="main">
+    <section id="top" class="hero">
+      <div class="snow-layer snow-one"></div>
+      <div class="snow-layer snow-two"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow">Insured • Local • 1-Inch Trigger</div>
+          <h1>Reliable snow removal before winter slows you down.</h1>
+          <p>
+            Residential and commercial snow removal in Ripon, Wisconsin, with limited availability
+            in Green Lake and Princeton. Seasonal clients receive dependable, automatic service after
+            qualifying snowfall.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="tel:+19204190345">Call (920) 419-0345</a>
+            <a class="button button-secondary" href="sms:+19204190345">Text for a Quote</a>
+          </div>
+
+          <div class="trust-row" aria-label="Service highlights">
+            <div><strong>24/7</strong><span>Storm monitoring</span></div>
+            <div><strong>1"</strong><span>Automatic trigger</span></div>
+            <div><strong>Fast</strong><span>Local response</span></div>
+          </div>
         </div>
-        <a class="text-link" href="#quote">Or submit your property address online →</a>
-      </div>
-      <div class="trust-strip">
-        <div><strong>24/7</strong><span>Storm monitoring</span></div>
-        <div><strong>1 inch</strong><span>Automatic trigger</span></div>
-        <div><strong>Fast</strong><span>Local response</span></div>
-        <div><strong>Flexible</strong><span>Seasonal or per-push</span></div>
+
+        <aside class="hero-card">
+          <img src="logo.jpg" alt="Pristine Grounds snow removal" />
+          <h2>Priority seasonal openings</h2>
+          <p>
+            Build a reliable route before the first major storm. One-time emergency work is available
+            only as scheduling allows and may be priced higher during peak demand.
+          </p>
+          <a class="text-link" href="#quote">Request a free property quote →</a>
+        </aside>
       </div>
     </section>
 
-    <section class="intro section">
-      <div>
-        <p class="section-label">SNOW SERVICE BUILT AROUND RELIABILITY</p>
-        <h2>You should not have to wonder whether your property will get cleared.</h2>
-      </div>
-      <p>Pristine Grounds monitors storms around the clock and automatically services contracted properties once snowfall reaches the agreed trigger. Seasonal clients receive priority during major storms, while one-time and emergency service is available as scheduling allows.</p>
-    </section>
-
-    <section id="residential" class="split section muted">
-      <div class="split-image residential-image" role="img" aria-label="Snow removal near a residential garage"></div>
-      <div class="split-content">
-        <p class="section-label">RESIDENTIAL SNOW REMOVAL</p>
-        <h2>Come home to a clear driveway and safer walkways.</h2>
-        <ul class="check-list">
-          <li>Driveway plowing</li>
-          <li>Sidewalk and walkway clearing</li>
-          <li>Snow blowing where a plow cannot reach</li>
-          <li>Automatic service after a 1-inch snowfall</li>
-          <li>Seasonal and per-push options</li>
-        </ul>
-        <a class="button primary" href="#quote">Request Residential Pricing</a>
+    <section class="proof-strip">
+      <div class="container proof-grid">
+        <span>✓ Fully insured</span>
+        <span>✓ Residential & commercial</span>
+        <span>✓ No long-term commitment required</span>
+        <span>✓ Professional equipment</span>
       </div>
     </section>
 
-    <section id="commercial" class="section commercial">
-      <div class="commercial-copy">
-        <p class="section-label">COMMERCIAL SNOW REMOVAL</p>
-        <h2>Keep your lot accessible and your business moving.</h2>
-        <p>Commercial clients receive route planning based on opening time, traffic patterns and priority areas. Service can include parking lots, entrances, sidewalks and limited salting when it fits the route and account needs.</p>
-      </div>
-      <div class="service-grid">
-        <article><span>01</span><h3>Parking Lots</h3><p>Per-push service for small and mid-sized commercial properties.</p></article>
-        <article><span>02</span><h3>Entrances & Walkways</h3><p>Clear access points for employees, customers and deliveries.</p></article>
-        <article><span>03</span><h3>Storm Response</h3><p>Monitoring before, during and after snowfall events.</p></article>
-        <article><span>04</span><h3>Emergency Service</h3><p>Available when route capacity allows, typically at a premium during major storms.</p></article>
-      </div>
-      <a class="button primary" href="#quote">Request a Commercial Quote</a>
-    </section>
+    <section id="residential" class="section">
+      <div class="container two-column">
+        <div>
+          <div class="eyebrow">Residential Snow Removal</div>
+          <h2>Wake up to a property you can actually use.</h2>
+          <p class="lead">
+            Stop gambling on whether you will have time to clear snow before work. Seasonal residential
+            clients receive automatic service after the agreed snowfall trigger.
+          </p>
 
-    <section class="process section dark">
-      <p class="section-label">HOW IT WORKS</p>
-      <h2>Simple setup. Automatic service.</h2>
-      <div class="steps">
-        <div><b>1</b><h3>Request a quote</h3><p>Send your address and property details.</p></div>
-        <div><b>2</b><h3>Choose your service</h3><p>Select seasonal or per-push service.</p></div>
-        <div><b>3</b><h3>Set the expectations</h3><p>Confirm trigger depth, priority areas and timing.</p></div>
-        <div><b>4</b><h3>We monitor the storm</h3><p>Your property is serviced automatically at the agreed trigger.</p></div>
-      </div>
-    </section>
+          <div class="feature-list">
+            <article>
+              <div class="icon">01</div>
+              <div>
+                <h3>Driveway plowing</h3>
+                <p>Dependable driveway clearing for recurring clients throughout the winter.</p>
+              </div>
+            </article>
+            <article>
+              <div class="icon">02</div>
+              <div>
+                <h3>Sidewalks and walkways</h3>
+                <p>Snow blowing and walkway clearing are available as part of the property plan.</p>
+              </div>
+            </article>
+            <article>
+              <div class="icon">03</div>
+              <div>
+                <h3>Salting when practical</h3>
+                <p>Salting is available when route volume and customer demand make service efficient.</p>
+              </div>
+            </article>
+          </div>
+        </div>
 
-    <section id="service-area" class="section area">
-      <div>
-        <p class="section-label">SERVICE AREA</p>
-        <h2>Based in Ripon, Wisconsin.</h2>
-        <p>Ripon is the primary service area. Green Lake and Princeton properties may be accepted when they fit the route and service schedule.</p>
-      </div>
-      <div class="area-card">
-        <div><strong>Primary</strong><span>Ripon</span></div>
-        <div><strong>Limited availability</strong><span>Green Lake</span></div>
-        <div><strong>Limited availability</strong><span>Princeton</span></div>
-      </div>
-    </section>
-
-    <section id="quote" class="quote section">
-      <div class="quote-copy">
-        <p class="section-label">FREE SNOW REMOVAL QUOTE</p>
-        <h2>Tell us where the snow needs to go.</h2>
-        <p>Submit the property address and a few details. For the fastest response during an active storm, call or text directly.</p>
-        <div class="contact-card">
-          <a href="tel:+19204190345">(920) 419-0345</a>
-          <a href="mailto:pristineground@gmail.com">pristineground@gmail.com</a>
+        <div class="visual-card residential-visual">
+          <div class="visual-badge">Seasonal clients receive priority</div>
+          <div class="visual-content">
+            <span>Residential</span>
+            <strong>Automatic service after 1 inch</strong>
+            <p>No need to call after every storm.</p>
+          </div>
         </div>
       </div>
+    </section>
 
-      <form class="quote-form" action="https://formsubmit.co/pristineground@gmail.com" method="POST">
-        <input type="hidden" name="_subject" value="New Pristine Grounds Snow Removal Quote Request">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_template" value="table">
+    <section id="commercial" class="section section-dark">
+      <div class="container two-column reverse">
+        <div class="commercial-panel">
+          <div class="commercial-grid">
+            <div><strong>Parking lots</strong><span>Per-push and seasonal options</span></div>
+            <div><strong>Walkways</strong><span>Customer and employee access</span></div>
+            <div><strong>Emergency response</strong><span>As scheduling and capacity allow</span></div>
+            <div><strong>Storm monitoring</strong><span>Active tracking throughout weather events</span></div>
+          </div>
+        </div>
 
-        <label>Full name
-          <input type="text" name="name" autocomplete="name" required>
-        </label>
-        <label>Phone number
-          <input type="tel" name="phone" autocomplete="tel" required>
-        </label>
-        <label>Email address
-          <input type="email" name="email" autocomplete="email">
-        </label>
-        <label>Property address
-          <input type="text" name="property_address" autocomplete="street-address" required>
-        </label>
-        <label>Property type
-          <select name="property_type" required>
-            <option value="">Select one</option>
-            <option>Residential</option>
-            <option>Commercial</option>
-          </select>
-        </label>
-        <label>Service preference
-          <select name="service_preference" required>
-            <option value="">Select one</option>
-            <option>Seasonal service</option>
-            <option>Per-push service</option>
-            <option>Emergency / one-time service</option>
-            <option>Not sure yet</option>
-          </select>
-        </label>
-        <label class="full">What needs to be cleared?
-          <textarea name="details" rows="4" placeholder="Driveway size, sidewalks, parking lot, preferred timing, salting needs, or anything else we should know."></textarea>
-        </label>
-        <button class="button primary full" type="submit">Submit Quote Request</button>
-        <p class="form-note full">Submitting this form sends your information to Pristine Grounds through FormSubmit. The first submission may require a one-time email activation.</p>
-      </form>
+        <div>
+          <div class="eyebrow">Commercial Snow Removal</div>
+          <h2>Keep your property open, accessible, and professional.</h2>
+          <p class="lead">
+            Commercial properties need a plan, not a last-minute scramble. Pristine Grounds provides
+            lot plowing, walkway clearing, and limited deicing for businesses in the Ripon area.
+          </p>
+
+          <ul class="check-list">
+            <li>Commercial parking-lot plowing</li>
+            <li>Sidewalk and entrance clearing</li>
+            <li>Seasonal and per-push service structures</li>
+            <li>Clear communication during major storms</li>
+          </ul>
+
+          <a class="button button-primary" href="#quote">Request a Commercial Quote</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">How Service Works</div>
+          <h2>Simple, automatic, and built around your property.</h2>
+        </div>
+
+        <div class="steps">
+          <article>
+            <span>1</span>
+            <h3>Request a quote</h3>
+            <p>Send your address and tell us whether the property is residential or commercial.</p>
+          </article>
+          <article>
+            <span>2</span>
+            <h3>Confirm the service plan</h3>
+            <p>We agree on the trigger, service areas, pricing structure, and property expectations.</p>
+          </article>
+          <article>
+            <span>3</span>
+            <h3>Receive automatic service</h3>
+            <p>When qualifying snow falls, seasonal clients are serviced without needing to call.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="service-area" class="section service-area">
+      <div class="container service-area-grid">
+        <div>
+          <div class="eyebrow">Service Area</div>
+          <h2>Focused routes create better service.</h2>
+          <p class="lead">
+            Ripon is the primary service area. Green Lake and Princeton may be accepted when the property
+            fits the route and available capacity.
+          </p>
+        </div>
+
+        <div class="area-cards">
+          <div class="area primary-area">
+            <small>Primary Area</small>
+            <strong>Ripon</strong>
+            <span>Best route availability</span>
+          </div>
+          <div class="area">
+            <small>Limited Availability</small>
+            <strong>Green Lake</strong>
+            <span>Route dependent</span>
+          </div>
+          <div class="area">
+            <small>Limited Availability</small>
+            <strong>Princeton</strong>
+            <span>Route dependent</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="quote" class="section quote-section">
+      <div class="container quote-grid">
+        <div>
+          <div class="eyebrow">Free Snow Removal Quote</div>
+          <h2>Send the property address. We will take it from there.</h2>
+          <p class="lead">
+            Seasonal customers are prioritized. One-time service may be available during larger storms,
+            but response times and pricing depend on demand.
+          </p>
+
+          <div class="direct-contact">
+            <a href="tel:+19204190345"><span>Call</span><strong>(920) 419-0345</strong></a>
+            <a href="sms:+19204190345"><span>Text</span><strong>(920) 419-0345</strong></a>
+            <a href="mailto:pristineground@gmail.com"><span>Email</span><strong>pristineground@gmail.com</strong></a>
+          </div>
+        </div>
+
+        <form class="quote-form" action="https://formsubmit.co/pristineground@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New Pristine Grounds Snow Removal Quote" />
+          <input type="hidden" name="_captcha" value="false" />
+
+          <div class="form-row">
+            <label>
+              Name
+              <input type="text" name="name" autocomplete="name" required />
+            </label>
+            <label>
+              Phone
+              <input type="tel" name="phone" autocomplete="tel" required />
+            </label>
+          </div>
+
+          <label>
+            Property address
+            <input type="text" name="address" autocomplete="street-address" required />
+          </label>
+
+          <div class="form-row">
+            <label>
+              Property type
+              <select name="property_type" required>
+                <option value="">Choose one</option>
+                <option>Residential</option>
+                <option>Commercial</option>
+              </select>
+            </label>
+            <label>
+              Preferred service
+              <select name="service_type" required>
+                <option value="">Choose one</option>
+                <option>Seasonal</option>
+                <option>Per-push</option>
+                <option>Emergency / one-time</option>
+                <option>Not sure</option>
+              </select>
+            </label>
+          </div>
+
+          <label>
+            Property details
+            <textarea name="details" rows="5" placeholder="Driveway size, parking-lot size, sidewalks, special concerns, or anything else we should know."></textarea>
+          </label>
+
+          <button class="button button-primary form-button" type="submit">Request My Free Quote</button>
+          <p class="form-note">
+            The first form submission may require a one-time FormSubmit activation email.
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <section class="faq section">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">Common Questions</div>
+          <h2>Before the first storm.</h2>
+        </div>
+
+        <div class="faq-list">
+          <details>
+            <summary>What is your snowfall trigger?</summary>
+            <p>Standard automatic service begins after approximately 1 inch, unless a different trigger is agreed to for the property.</p>
+          </details>
+          <details>
+            <summary>Do I need a long-term contract?</summary>
+            <p>No. Seasonal and per-push options are available. The exact arrangement depends on the property and route capacity.</p>
+          </details>
+          <details>
+            <summary>Do you offer one-time snow removal?</summary>
+            <p>Sometimes. Seasonal clients are serviced first. One-time work is accepted only as capacity allows and may cost more during major storms.</p>
+          </details>
+          <details>
+            <summary>Do you provide salting?</summary>
+            <p>Yes, selectively. Salting makes the most sense when several customers on the route require it.</p>
+          </details>
+        </div>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <img src="assets/logo.jpg" alt="Pristine Grounds logo" />
-    <div>
-      <strong>Pristine Grounds Snow Removal</strong>
-      <span>Ripon, Wisconsin</span>
-      <span>Insured residential and commercial service</span>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="logo.jpg" alt="Pristine Grounds logo" />
+        <div>
+          <strong>Pristine Grounds</strong>
+          <span>Snow Removal • Ripon, Wisconsin</span>
+        </div>
+      </div>
+
+      <div class="footer-contact">
+        <a href="tel:+19204190345">(920) 419-0345</a>
+        <a href="mailto:pristineground@gmail.com">pristineground@gmail.com</a>
+      </div>
     </div>
-    <div class="footer-links">
-      <a href="tel:+19204190345">Call</a>
-      <a href="sms:+19204190345">Text</a>
-      <a href="mailto:pristineground@gmail.com">Email</a>
+
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> Pristine Grounds. All rights reserved.</span>
+      <span>Insured residential and commercial snow removal.</span>
     </div>
-    <p class="credit">Stock snow imagery: Todd Trapani and Patrick Bald via Unsplash.</p>
   </footer>
+
+  <div class="mobile-bar">
+    <a href="tel:+19204190345">Call</a>
+    <a href="sms:+19204190345">Text</a>
+    <a href="#quote">Quote</a>
+  </div>
 
   <script src="script.js"></script>
 </body>
